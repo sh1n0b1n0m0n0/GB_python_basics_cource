@@ -4,11 +4,12 @@ def main():
     while True:
         arr = input("Enter nums: ")
         for i in arr.split():
-            if i.lower() == 'n':
+            if i.lower() == 'n' and type(i) == str:
                 print(sum(new_arr))
                 ans = 'n'
                 break
             else:
+
                 new_arr.append(int(i))
 
         if ans == 'n':
