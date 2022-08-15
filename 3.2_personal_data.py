@@ -8,14 +8,7 @@ def collect_and_print_data(name, last_name, birth_year, town, email, phone_numbe
 
 
 def main():
-    name = input("Enter name: ")
-    last_name = input("Enter last_name: ")
-    birth_year = int(input("Enter birth_year: "))
-    town = input("Enter town: ")
-    email = input("Enter email: ")
-    phone_number = int(input("Enter phone_number: "))
-
-    collect_and_print_data(name, last_name, birth_year, town, email, phone_number)
+    collect_and_print_data(name="kek", last_name="lol", birth_year="1921", town="Novosibirsk", email="www.kek.com", phone_number="112")
 
 
 if __name__ == '__main__':
