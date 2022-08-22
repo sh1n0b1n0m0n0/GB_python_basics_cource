@@ -1,0 +1,4 @@
+firm_1 ООО 10000 5000
+roga_i_kopita OOO 13333 666
+firm_2 IP 2311 3000
+firm_3 IP 12345 120
